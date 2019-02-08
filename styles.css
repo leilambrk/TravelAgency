@@ -1,0 +1,234 @@
+/* GENERAL */
+* 
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: Arial;
+	font-size: 15px;
+}
+
+h1
+{
+	color: #444;
+}
+
+h2
+{
+	color: #444;
+	font-size:55px;
+}
+
+h4
+{
+	color: #444;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.clear
+{
+	clear:both;
+}
+.wrapper
+{
+	width:940px;
+	margin:0 auto;
+	padding: 0px 10px;
+}
+
+.org
+{
+	color: #ff7a00;
+}
+
+ul
+{
+	list-style: none;
+}
+
+a
+{
+	text-decoration:none;
+	color:#444;
+}
+
+a:hover 
+{
+	color:#ff7a00 ;
+}
+
+/* HEADER */
+
+header
+{
+	height: 120px;
+	margin-top: 32px;
+}
+
+header h1
+{
+	float: left;
+}
+
+header nav
+{
+	float: right;
+}
+
+header nav ul li
+{
+	/*float: right;*/
+	display: inline-block;
+	margin:0px 20px;
+}
+
+header nav ul li a
+{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/*MAIN IMAGE*/
+
+#main-image
+{
+	height: 580px;
+	background: url('images/main.jpg') center;
+}
+
+#main-image h2
+{
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: center;
+	padding:150px 0px 40px 0px;
+	margin-bottom: 20px;
+}
+
+.button1
+{
+	font-size:20px;
+	color:#fff;
+	width: 120px;
+	height: 50px;
+	display: block;
+	text-align: center;
+	line-height: 50px;
+	background-color: #ff7a00;
+	margin:0px auto; 
+	border-radius: 3px;
+}
+
+.button1:hover
+{
+	color:#444;
+}
+
+
+/* STEPS */
+#step1 ul
+{
+	/*width: 200px;*/
+}
+
+#step2 ul
+{
+	/*width: 200px;*/
+}
+
+#step3 ul
+{
+	/*width: 200px;*/
+}
+
+#steps ul li
+{
+	width: 300px;
+	/*float:right;*/
+	text-align: center;
+	margin: 20px 0;
+	line-height: 20px;
+	color:#777;
+	font-family: arial;
+}
+
+#steps ul
+{
+	margin:20px auto;
+	float: right;
+}
+
+#steps
+{
+	padding-bottom: 40px;
+}
+
+/*POSSIBILITIES*/
+
+#possibilities
+{
+	background-color: #efefef;
+	padding: 60px 0px;
+}
+
+#possibilities article
+{
+	width: 460px;
+	height:270px; 
+	float: left;
+	border-radius: 10px;
+
+}
+
+#possibilities article:first-child
+{
+	margin-right: 20px;
+}
+
+.overlay
+{
+	background: rgba(255,255,255, 0.90);
+	height: 100%;
+	width: 190px;
+	padding: 20px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+}
+
+article h4
+{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+article p
+{
+	border-top:10px;
+	color:#444;
+	font-family: arial;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
